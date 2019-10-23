@@ -33,6 +33,8 @@ https://nodejs.org/en/download/
 
 - Clone the project
 
+- Pull the node.js docker image using the following command: `docker pull node`
+
 - Build the docker images using the following command: `docker build -t rinsedbot .`
 
 - Start the docker image using the following command: `docker run --restart=always -d rinsedbot`
@@ -43,3 +45,5 @@ https://nodejs.org/en/download/
 
 - Fork the repo to your computer. To do this, click on the `fork` button on the top-right hand corner.
 - Go to your directory, and open up terminal. Type in `npm install`. This should install all the dependicies you need for this project.
+- Duplicate `conf.example.js` and rename it to `conf.js`.
+- Insert your token into the `conf.js` file where specified.

@@ -54,7 +54,7 @@ client.on('ready', () => {
     logsChannel = client.guilds.find(x => x.name === 'MAD Club').channels.find(x => x.name === 'logs');
     
     //finding welcome channel
-    let welcomeChannel = client.guilds.find(x => x.name === 'MAD Club').channels.find(x => x.name === 'welcome');
+    let welcomeChannel = client.guilds.find(x => x.name === 'MAD Club').channels.find(x => x.name === 'readme');
     //roles for each year
     let yearRoles = ['412447604740194304', '412447648386252811', '412447711678300160'];
     //rules message id
